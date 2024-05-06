@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@700&family=Open+Sans&display=swap');
+body, html {
+    height: 100%;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #31304D;
+    color: #F0ECE5;
+}
+.navbar {
+    background-image: url(banner.png);
+    padding: 0 2vw 0 2vw;
+}

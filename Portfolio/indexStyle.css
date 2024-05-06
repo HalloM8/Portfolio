@@ -1,0 +1,66 @@
+h1 {
+    font-size: 4vw;
+}
+
+p {
+    font-size: 20pt;
+}
+
+.vl {
+    position: absolute;
+    border-left: 6px solid green;
+    opacity: 0%;
+    margin-left: 50vw;
+    height: 2000px;
+    z-index: 999;
+}
+
+.card {
+    width: 40vw;
+    justify-content: left;
+    z-index: -1;
+}
+
+.main {
+    margin: 10vh 10vh 20vw 15vw;
+}
+
+.subtitle {
+    color: #B6BBC4;
+}
+
+.typed-out {
+    margin-top: 1vh;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(50, end) forwards;
+}
+
+.container{
+    height: 100%;
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.blink {
+    display: inline-block;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.golden {
+    font-size: inherit;
+    color: #fba78f;
+}
